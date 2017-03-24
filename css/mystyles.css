@@ -1,0 +1,50 @@
+body{
+  background-color:  skyblue;
+  background:url("https://s-media-cache-ak0.pinimg.com/564x/af/41/c2/af41c2c5e2f92272b9c7e8044e70279f.jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Bree Serif,sans-serif;
+}
+
+.well{
+  text-align:center;
+  background-color: white;  
+  margin:35px 400px;
+  
+  padding:30px;
+
+  border-style: solid;
+   border-radius:4px;
+   border-color:black;
+/*     width:800px; */
+}
+
+body h1{
+  padding: 20px;
+  font-size:65px;
+  }
+
+.location{
+  font-size:35px;
+ }
+
+#tempdiv{
+  font-size:35px;
+  padding:15px;
+/*   width:650px;
+  margin-left: auto ;
+  margin-right: auto ;
+  justify-content: center; */
+}
+#toggle{
+  border:grey;
+  border-style: outset;
+  border-radius:5px;
+  padding:3px;
+  background:black;
+  color:white;
+  font-family: Bree Serif,sans-serif;
+}
+#description{
+  font-size:35px;
+}
