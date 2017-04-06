@@ -16,7 +16,7 @@ $(document).ready(function(){
     // url for API request
 
 
-var url="https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=metric&appid=772e29493b86a79ad283b68169f94227&";
+var url="http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=metric&appid=772e29493b86a79ad283b68169f94227&";
 
   $.getJSON(url,function(info){
     // console.log("is it passed")
