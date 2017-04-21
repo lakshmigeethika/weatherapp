@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     // url for API request
 
-
+//use https://cors-anywhere.herokuapp.com to enable cross origin requests
 var url="http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=metric&appid=772e29493b86a79ad283b68169f94227&";
 
   $.getJSON(url,function(info){
@@ -82,7 +82,7 @@ var url="http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"
     //changing to F
     if(unit=="metric"){
       $("#toggle").html("fahrenheit");
-       far= temp * (5/9) + 32;
+       far= temp * (9/5) + 32;
       $("#tempdiv").html(far.toPrecision(4));
       unit="fahrenheit";
       console.log("the units in celcius are chnaged to " +unit);
